@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="https://kit.fontawesome.com/183ef109bd.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body class="bg-stone-950">
+    <header class="fixed top-0 left-0 right-0 border-b-1 border-gray-800 bg-stone-950 z-[1000]">
+        <nav class="p-4 md:p-0 md:py-4 container mx-auto max-w-screen-xl flex items-center justify-between">
+            <a href="/index.html">
+                <img src="./assets/instagram-1.svg" alt="gram logo" class="w-32 invert">
+            </a>
+            <a href="/notifications.html">
+                <i class="fa-regular fa-heart text-2xl mb-4 text-white relative cursor-pointer">
+                    <div class="absolute w-2 h-2 rounded-full bg-red-400 top-0 right-0 border-1 border-black"></div>
+                </i>
+            </a>
+        </nav>
+    </header>
+    <main class="container mx-auto max-w-screen-xl pt-[75px]">
+        <!-- profile icons at the top -->
+        <div class="border-b-1 border-gray-800">
+            <div class="p-4 grid grid-cols-5 place-items-center">
+                <a href="/profile.html" class="w-fit max-w-[80px] grid place-items-center cursor-pointer">
+                    <div class="relative">
+                        <img src="./assets/profile.jpg" alt="profile" class="w-12 rounded-full">
+                        <div class="absolute top-0 bottom-0 left-0 right-0 rounded-full z-[-1] bg-gradient-to-b from-fuchsia-500 to-amber-500 scale-115"></div>
+                    </div>
+                    <span class="text-white text-center line-clamp-1">person_1</span>
+                </a>
+                <a href="/profile.html" class="w-fit max-w-[80px] grid place-items-center cursor-pointer">
+                    <div class="relative">
+                        <img src="./assets/profile.jpg" alt="profile" class="w-12 rounded-full">
+                        <div class="absolute top-0 bottom-0 left-0 right-0 rounded-full z-[-1] bg-gradient-to-b from-fuchsia-500 to-amber-500 scale-115"></div>
+                    </div>
+                    <span class="text-white text-center line-clamp-1">person_2</span>
+                </a>
+                <a href="/profile.html" class="w-fit max-w-[80px] grid place-items-center cursor-pointer">
+                    <div class="relative">
+                        <img src="./assets/profile.jpg" alt="profile" class="w-12 rounded-full">
+                        <div class="absolute top-0 bottom-0 left-0 right-0 rounded-full z-[-1] bg-gradient-to-b from-fuchsia-500 to-amber-500 scale-115"></div>
+                    </div>
+                    <span class="text-white text-center line-clamp-1">person_3</span>
+                </a>
+                <a href="/profile.html" class="w-fit max-w-[80px] grid place-items-center cursor-pointer">
+                    <div class="relative">
+                        <img src="./assets/profile.jpg" alt="profile" class="w-12 rounded-full">
+                        <div class="absolute top-0 bottom-0 left-0 right-0 rounded-full z-[-1] bg-gradient-to-b from-fuchsia-500 to-amber-500 scale-115"></div>
+                    </div>
+                    <span class="text-white text-center line-clamp-1">person_4</span>
+                </a>
+                <a href="/profile.html" class="w-fit max-w-[80px] grid place-items-center cursor-pointer">
+                    <div class="relative">
+                        <img src="./assets/profile.jpg" alt="profile" class="w-12 rounded-full">
+                        <div class="absolute top-0 bottom-0 left-0 right-0 rounded-full z-[-1] bg-gradient-to-b from-fuchsia-500 to-amber-500 scale-115"></div>
+                    </div>
+                    <span class="text-white text-center line-clamp-1">person_5</span>
+                </a>
+            </div>
+        </div>
+
+        <!-- posts -->
+        <div class="p-4 pb-16">
+            <!-- individual post -->
+            <div class="p-4">
+                <!-- top part of post -->
+                <div class="flex items-center justify-between p-4">
+                    <a href="./profile.html" class="flex items-center gap-x-4">
+                        <div class="relative">
+                            <img src="./assets/profile.jpg" alt="profile" class="w-12 rounded-full">
+                            <div class="absolute top-0 bottom-0 left-0 right-0 rounded-full z-[-1] bg-gradient-to-b from-fuchsia-500 to-amber-500 scale-115"></div>
+                        </div>
+                        <div class="text-white flex flex-col">
+                            <span class="font-bold">
+                                person_1
+                            </span>
+                            <span>
+                                Brazil
+                            </span>
+                        </div>
+                    </a>
+                    <i class="fa-solid fa-ellipsis text-white cursor-pointer"></i>
+                </div>
+                <!-- media part of post -->
+                <div>
+                <img src="/assets/post1.jpg" alt="" class="aspect-[4/5] object-cover">
+                </div>
+                <!-- bottom part of post -->
+                <div class="p-4">
+                    <!-- interactivity -->
+                    <div class="flex items-center justify-between">
+                        <div class="flex gap-x-4">
+                            <i class="fa-regular fa-heart text-2xl text-white cursor-pointer"></i>
+                            <i class="fa-regular fa-comment text-2xl text-white cursor-pointer"></i>
+                            <i class="fa-regular fa-share-from-square text-2xl text-white cursor-pointer"></i>
+                        </div>
+                        <i class="fa-regular fa-bookmark text-2xl text-white cursor-pointer"></i>
+                    </div>
+                    <!-- likes and comments and post text -->
+                    <div class="text-white flex flex-col gap-y-2 my-2">
+                        <span class="font-bold">
+                            31.359 Me gusta
+                        </span>
+                        <div>
+                            <a href="/profile.html" class="font-bold">
+                                person_1
+                            </a>
+                            <span>
+                                I love nature
+                            </span> 
+                        </div>
+                        <button class="w-fit font-bold">
+                            Ver los 145 comentarios
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- individual post -->
+            <div class="p-4">
+                <!-- top part of post -->
+                <div class="flex items-center justify-between p-4">
+                    <a href="/profile.html" class="flex items-center gap-x-4">
+                        <div class="relative">
+                            <img src="./assets/profile.jpg" alt="profile" class="w-12 rounded-full">
+                            <div class="absolute top-0 bottom-0 left-0 right-0 rounded-full z-[-1] bg-gradient-to-b from-fuchsia-500 to-amber-500 scale-115"></div>
+                        </div>
+                        <div class="text-white flex flex-col">
+                            <span>
+                                person_2
+                            </span>
+                            <span>
+                                Greenland
+                            </span>
+                        </div>
+                    </a>
+                    <i class="fa-solid fa-ellipsis text-white cursor-pointer"></i>
+                </div>
+                <!-- media part of post -->
+                <div>
+                <img src="/assets/post2.jpg" alt="" class="aspect-[4/5] object-cover">
+                </div>
+                <!-- bottom part of post -->
+                <div class="p-4">
+                    <!-- interactivity -->
+                    <div class="flex items-center justify-between">
+                        <div class="flex gap-x-4">
+                            <i class="fa-regular fa-heart text-2xl text-white cursor-pointer"></i>
+                            <i class="fa-regular fa-comment text-2xl text-white cursor-pointer"></i>
+                            <i class="fa-regular fa-share-from-square text-2xl text-white cursor-pointer"></i>
+                        </div>
+                        <i class="fa-regular fa-bookmark text-2xl text-white cursor-pointer"></i>
+                    </div>
+                    <!-- likes and comments and post text -->
+                    <div class="text-white flex flex-col gap-y-2 my-2">
+                        <span class="font-bold">
+                            231.359 Me gusta
+                        </span>
+                        <div>
+                            <a href="/profile.html" class="font-bold">
+                                person_2
+                            </a>
+                            <span>
+                                I love greenland
+                            </span> 
+                        </div>
+                        <button class="w-fit font-bold">
+                            Ver los 105 comentarios
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- individual post -->
+            <div class="p-4">
+                <!-- top part of post -->
+                <div class="flex items-center justify-between p-4">
+                    <a href="/profile.html" class="flex items-center gap-x-4">
+                        <div class="relative">
+                            <img src="./assets/profile.jpg" alt="profile" class="w-12 rounded-full">
+                            <div class="absolute top-0 bottom-0 left-0 right-0 rounded-full z-[-1] bg-gradient-to-b from-fuchsia-500 to-amber-500 scale-115"></div>
+                        </div>
+                        <div class="text-white flex flex-col">
+                            <span>
+                                person_4
+                            </span>
+                            <span>
+                                Spain
+                            </span>
+                        </div>
+                    </a>
+                    <i class="fa-solid fa-ellipsis text-white cursor-pointer"></i>
+                </div>
+                <!-- media part of post -->
+                <div>
+                <img src="/assets/post3.webp" alt="" class="aspect-[4/5] object-cover">
+                </div>
+                <!-- bottom part of post -->
+                <div class="p-4">
+                    <!-- interactivity -->
+                    <div class="flex items-center justify-between">
+                        <div class="flex gap-x-4">
+                            <i class="fa-regular fa-heart text-2xl text-white cursor-pointer"></i>
+                            <i class="fa-regular fa-comment text-2xl text-white cursor-pointer"></i>
+                            <i class="fa-regular fa-share-from-square text-2xl text-white cursor-pointer"></i>
+                        </div>
+                        <i class="fa-regular fa-bookmark text-2xl text-white cursor-pointer"></i>
+                    </div>
+                    <!-- likes and comments and post text -->
+                    <div class="text-white flex flex-col gap-y-2 my-2">
+                        <span class="font-bold">
+                            3.359 Me gusta
+                        </span>
+                        <div>
+                            <a href="/profile.html" class="font-bold">
+                                person_4
+                            </a>
+                            <span>
+                                I love rivers
+                            </span> 
+                        </div>
+                        <button class="w-fit font-bold">
+                            Ver los 50 comentarios
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="fixed bottom-0 left-0 right-0 bg-stone-950 z-[1000] border-gray-800 border-t-2">
+        <div class="flex">
+            <a href="/index.html" class="flex-1 flex justify-center hover:bg-stone-600 py-4">
+                <i class="fa-solid fa-house text-white text-2xl"></i>
+            </a>
+            <a href="/index.html" class="flex-1 flex justify-center hover:bg-stone-600 py-4">
+                <i class="fa-solid fa-layer-group text-white text-2xl"></i>
+            </a>
+            <a href="/index.html" class="flex-1 flex justify-center hover:bg-stone-600 py-4">
+                <i class="fa-solid fa-clapperboard text-white text-2xl"></i>
+            </a>
+            <a href="/index.html" class="flex-1 flex justify-center hover:bg-stone-600 py-4">
+                <i class="fa-solid fa-square-plus text-white text-2xl"></i>
+            </a>
+            <a href="/index.html" class="flex-1 flex justify-center hover:bg-stone-600 py-4">
+                <i class="fa-solid fa-message text-white text-2xl"></i>
+            </a>
+            <a href="/index.html" class="flex-1 flex justify-center hover:bg-stone-600 py-4">
+                <i class="fa-solid fa-user text-white text-2xl"></i>
+            </a>
+            
+        </div>
+    </footer>
+</body>
+</html>
